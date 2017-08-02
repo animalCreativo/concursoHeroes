@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>pencilGris</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3" transform="translate(-3282.000000, -1303.000000)">
+            <g id="pencilGris" transform="translate(3282.000000, 1303.000000)">
+                <circle id="fill" fill="#FC5454" cx="256" cy="256" r="256"></circle>
+                <circle id="fill" fill="#9B9B9B" cx="256" cy="256" r="256"></circle>
+                <g id="Painting_Tools" transform="translate(132.000000, 128.000000)">
+                    <g id="Painting_Tools_1_">
+                        <g id="Pallet">
+                            <path d="M226.947,121.323 C187.947,116.823 142.947,188.823 115.114,135.489 C98.175,103.031 158.705,87.411 173.114,58.823 C199.197,7.073 136.665,0.597 127.566,0.597 C57.204,0.597 0.164,57.637 0.164,127.999 C0.164,198.361 57.204,255.401 127.566,255.401 C176.683,255.401 219.301,227.602 240.564,186.883 C250.683,162.947 253.567,124.395 226.947,121.323 Z" id="Shape" fill="#F1F2F2"></path>
+                            <circle id="Oval" fill="#FFFFFF" cx="107.802" cy="34.23" r="20.978"></circle>
+                            <circle id="Oval" fill="#FFFFFF" cx="42.947" cy="90.323" r="20.978"></circle>
+                            <circle id="Oval" fill="#FFFFFF" cx="42.947" cy="170.823" r="20.978"></circle>
+                            <circle id="Oval" fill="#FFFFFF" cx="119.694" cy="225.823" r="20.978"></circle>
+                            <circle id="Oval" fill="#FFFFFF" cx="202.947" cy="181.823" r="20.978"></circle>
+                        </g>
+                        <g id="Brush" transform="translate(75.000000, 43.000000)">
+                            <path d="M152.268,18.259 C157.888,12.219 161.516,6.308 160.331,5.122 C159.146,3.936 157.204,1.996 156.018,0.809 C154.832,-0.378 148.92,3.251 142.881,8.872 L40.58,104.072 C34.541,109.692 31.54,116.231 33.912,118.603 C36.284,120.975 40.165,124.857 42.537,127.228 C44.909,129.6 51.448,126.599 57.068,120.56 L152.268,18.259 Z" id="Shape" fill="#000000"></path>
+                            <path d="M46.884,114.255 C40.978,108.35 31.3,108.453 25.265,114.486 L35.958,125.18 L46.651,135.873 C52.687,129.84 52.79,120.161 46.884,114.255 Z" id="Shape" fill="#000000"></path>
+                            <path d="M25.469,114.689 C25.469,114.689 -6.306,125.509 1.744,159.8 C1.744,159.8 8.827,154.661 18.648,154.778 C42.374,155.139 46.855,136.076 46.855,136.076 L25.469,114.689 Z" id="Shape" fill="#9B9B9B"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

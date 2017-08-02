@@ -1,0 +1,453 @@
+
+$font-stack:    Montserrat, sans-serif;
+
+$color-body: #212121;
+$color-panel: #616161;
+$color-calloutCamera: #424242;
+$color-calloutPanel: #616161;
+$color-controles: #616161;
+$color-facebook: #3B5998;
+$color-header: #212121;
+$color-backgroundRedesSociales: #3B5998;
+$color-fondo: transparent;
+$color-footer: #212121;
+
+$height-header: 5vh;
+$height-mainContainer: 90vh;
+$height-redesSociales: 10vh;
+$height-shareRedesSociales: 90%;
+$width-shareRedesSociales: 90%;
+$height-fondo: 75vh;
+$height-camera: 55vh;
+$height-panel: 20vh;
+$height-controles: 10vh;
+$height-tools: 10vh;
+$height-footer: 5vh;
+
+$color-footerText: white;
+$emoticons-size: 80px 80px;
+$emoticons-margin: 10px;
+
+$height-imgheader: 30px;
+
+body {
+  line-height: 1;
+  margin: 0 auto;
+  background: $color-body; 
+  font: 100% $font-stack;
+}
+
+header{
+  background-color: $color-header;
+  position: absolute;
+  width: 100%;
+  height: $height-header;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+
+header img {
+  height: $height-imgheader;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer{
+  background-color: $color-footer;
+  position: absolute;
+  width: 100%;
+  height: $height-footer;
+  color: $color-footerText;
+  text-align: center;
+  padding-top: 1.5vh;
+}
+
+nav ul li {
+    color: #FFFFFF;
+    display: inline;
+    font-weight: 400;
+}
+article{
+    padding-top: 60px;
+}
+
+
+.redesSociales  {
+    background-color: $color-backgroundRedesSociales;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+    height: $height-redesSociales;
+}
+.fondo  {
+    background-color: $color-fondo;
+    text-align: center;
+    color: #FFFFFF;
+    height: $height-fondo;
+}
+.fondo h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#camera {
+ max-width: none;
+ height: $height-camera;
+ margin-right: 0px;
+}
+
+#panel{
+ background-color: $color-panel; 
+ height: $height-panel;
+}
+
+#controles {
+ 	margin-bottom:  0px;
+  background-color: $color-controles;
+  height: $height-controles;
+}
+
+#tools {
+  margin-bottom: 0px;
+  height: $height-tools;
+  margin-right: 0px;
+  margin-left:  0px;
+}
+
+#canvas {
+  width: 100%;
+  height: 100%;
+  border-width: 0px;
+  margin: 0px;
+}
+
+#calloutCamera {
+  border-width: 0px;
+  margin: 0px;
+  width: 100vw;
+  height: $height-camera;
+  background-color: $color-calloutCamera;
+  padding: 0px;
+}
+
+#calloutPanel {
+  width: 100vw;
+  height: $height-panel;
+  padding: 0px;
+  background-color: $color-calloutPanel;
+  margin-bottom: 0px; 
+}
+#colTools{
+  padding: 0px;
+}
+
+
+
+#btnCameraCanvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background-image: url( 'camera.svg' );
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: center center;
+  background-color: transparent;
+}
+
+#btnEmoticons,
+#btnLabels,
+#btnPencils,
+#btnFilters {
+  padding: 5px;
+ 
+
+}
+#shareFB{
+	background-color: $color-facebook;
+	height: $height-shareRedesSociales;
+  width: $width-shareRedesSociales;
+	background-image: url( 'face.svg' );
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-color: transparent;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+
+#btnCamera {
+  height: 10vh;
+  background-image: url( 'cameraagain.svg' );
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-color: transparent;
+  background-size: 80px 80px;
+
+}
+
+#btnOk {
+  height: 10vh;
+  background-image: url( 'ok.svg' );
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-color: transparent;
+  background-size: 40px 40px;
+}
+
+#btnClear{
+  height: 10vh;
+  background-image: url( 'delete.svg' );
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-color: transparent;
+  background-size: 40px 40px;
+}
+
+#listaEmoticons{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -194px;    /* Half of the popups height */
+  margin-left: -190px;   /* Half of the popups width */
+}
+
+#btnEmoticons1 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'pika.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+}
+#btnEmoticons2 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'sq.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+}
+#btnEmoticons3 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'ch.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+}
+#btnEmoticons4 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'sq.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+}
+#btnEmoticons5 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'ch.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+}
+#btnEmoticons6 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'pika.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+}
+
+#btnLabel1 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'texto1.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+}
+
+#btnLabel2 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'texto2.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+}
+#columnShareFacebook,{
+    -ms-flex: 1 1 0px;
+    flex: 1 1 0px;
+    padding-right: .625rem;
+    padding-left: .625rem;
+    min-width: initial;
+    height: inherit;
+}
+#rowShareFacebook {
+    max-width: 75rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    height: inherit;
+}
+#btnFilter1 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'logoFilter1.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+}
+#btnFilter2 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'logoFilter2.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+}
+#btnFilter3 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'logoFilter3.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+}
+#btnFilter4 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'logoFilter4.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+}
+#btnFilter5 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'logoFilter5.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+}
+#btnFilter6 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'logoFilter6.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+}
+
+#btnColor1 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'blue.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+  
+}
+#btnColor2 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'purple.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+
+}
+#btnColor3 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'red.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+  
+}
+#btnColor4 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'indigo.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+
+}
+#btnColor5 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'white.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+  
+}
+#btnColor6 {
+  height: 20vh;
+  width: 100%;
+  background-image: url( 'lightGreen.svg' );
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin : $emoticons-margin;
+  background-color: transparent;
+  background-size: $emoticons-size;
+
+}

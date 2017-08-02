@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>text</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="256" cy="256" r="256"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3" transform="translate(-1589.000000, -530.000000)">
+            <g id="text" transform="translate(1589.000000, 530.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Oval" fill="#F6A623" xlink:href="#path-1"></use>
+                <path d="M338.544218,145.5 L273.857143,145.5 L273.857143,366 L322.809524,378.25 L322.809524,390.5 L188.190476,390.5 L188.190476,378.25 L237.142857,366 L237.142857,145.5 L172.455782,145.5 L163.714286,206.75 L139.238095,206.75 L139.238095,121 L157.595238,121 L353.404762,121 L371.761905,121 L371.761905,206.75 L347.285714,206.75 L338.544218,145.5 Z" id="Combined-Shape" fill="#FFFFFF" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

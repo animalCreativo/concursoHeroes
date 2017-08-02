@@ -1,0 +1,17 @@
+@charset 'utf-8';
+
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
+
+$reveal-background: #212121;
+$reveal-radius: 20px;
+$reveal-width: 80%vw;
+$reveal-border: 0px;
+
+
+@include motion-ui-transitions;
+@include motion-ui-animations;
+@include foundation-everything(true);			
+
+@import 'apphome';
